@@ -1,0 +1,50 @@
+.movie-list-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  list-style-type: none;
+  font-size: 20px;
+  margin: 5px;
+  width: 20%;
+  border: 1px solid rgb(122, 121, 121);
+  height: 600px;
+}
+
+.movie-poster {
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+.text-container {
+  background-color: rgb(160, 163, 165);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movie-name {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 3px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.view-details {
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  border-style: none;
+  margin-right: 22px;
+  height: 50px;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
